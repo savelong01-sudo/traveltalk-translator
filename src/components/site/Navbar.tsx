@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Globe2, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const links = [
   { label: "Features", href: "#features" },
@@ -26,10 +26,12 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6">
-        <a href="#" className="flex items-center gap-2.5">
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-gradient-gold text-ink shadow-[0_0_24px_-6px_var(--gold)]">
-            <Globe2 className="h-4 w-4" strokeWidth={2.2} />
-          </span>
+        <a href="#" className="flex items-center gap-3">
+          <img
+            src="/logo.png"
+            alt="TraveTalk Logo"
+            className="h-10 w-10 rounded-xl object-contain"
+          />
           <span className="font-serif text-xl tracking-wide text-foreground">
             Trave<span className="text-gradient-gold">Talk</span>
           </span>

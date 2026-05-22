@@ -1,4 +1,4 @@
-import { Globe2, Heart, Instagram, Twitter } from "lucide-react";
+import { Heart, Instagram, Twitter } from "lucide-react";
 
 export function Footer() {
   return (
@@ -6,10 +6,12 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col items-start justify-between gap-10 md:flex-row md:items-center">
           <div>
-            <a href="#" className="flex items-center gap-2.5">
-              <span className="grid h-9 w-9 place-items-center rounded-full bg-gradient-gold text-ink">
-                <Globe2 className="h-4 w-4" strokeWidth={2.2} />
-              </span>
+            <a href="#" className="flex items-center gap-3">
+              <img
+                src="/logo.png"
+                alt="TraveTalk Logo"
+                className="h-9 w-9 rounded-xl object-contain"
+              />
               <span className="font-serif text-xl tracking-wide">
                 Trave<span className="text-gradient-gold">Talk</span>
               </span>
@@ -23,9 +25,9 @@ export function Footer() {
             <a href="#features" className="hover:text-gold">Features</a>
             <a href="#how" className="hover:text-gold">How It Works</a>
             <a href="#download" className="hover:text-gold">Download</a>
-            <a href="#" className="hover:text-gold">Privacy</a>
-            <a href="#" className="hover:text-gold">Terms</a>
-            <a href="#" className="hover:text-gold">Support</a>
+            <a href="/privacy" className="hover:text-gold">Privacy</a>
+            <a href="/terms" className="hover:text-gold">Terms</a>
+            <a href="mailto:support@travetalk.app" className="hover:text-gold">Support</a>
           </nav>
 
           <div className="flex items-center gap-3">
