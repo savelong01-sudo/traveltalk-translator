@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "TraveTalk is the AI-powered travel translator app. Voice & camera translation in 100+ languages, currency converter, bill splitter and phrasebook — all in one elegant app.",
       },
       { name: "author", content: "TraveTalk" },
-      { property: "og:title", content: "TraveTalk — AI Travel Translator" },
+      { property: "og:title", content: "TraveTalk — Speak Any Language. Travel Without Limits." },
       {
         property: "og:description",
         content: "Voice, camera & currency in 100+ languages. Travel without limits.",
@@ -87,6 +87,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@TraveTalk" },
+      { name: "twitter:title", content: "TraveTalk — Speak Any Language. Travel Without Limits." },
+      { name: "description", content: "TravelTalk Translator is an AI-powered travel translation app with real-time voice, text, and photo translation. Easily communicate abroad, translate signs and" },
+      { property: "og:description", content: "TravelTalk Translator is an AI-powered travel translation app with real-time voice, text, and photo translation. Easily communicate abroad, translate signs and" },
+      { name: "twitter:description", content: "TravelTalk Translator is an AI-powered travel translation app with real-time voice, text, and photo translation. Easily communicate abroad, translate signs and" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/20f9551d-39e7-4087-8248-bdfb309cea8d/id-preview-aa7ff157--1d04742b-bb23-4216-813e-e111ec0882dd.lovable.app-1779438079520.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/20f9551d-39e7-4087-8248-bdfb309cea8d/id-preview-aa7ff157--1d04742b-bb23-4216-813e-e111ec0882dd.lovable.app-1779438079520.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
