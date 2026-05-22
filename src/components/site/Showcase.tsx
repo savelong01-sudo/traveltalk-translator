@@ -8,6 +8,8 @@ const screens = [
   { src: camera, title: "Camera", caption: "Translate the world you see" },
   { src: currency, title: "Currency", caption: "Live rates, instantly" },
   { src: phrasebook, title: "Phrasebook", caption: "Curated essentials" },
+  // NOTE: Replace these placeholder images with actual app screenshots
+  // Add: Bill Splitter, Voice Translation Result screenshots
 ];
 
 export function Showcase() {
@@ -23,7 +25,7 @@ export function Showcase() {
             <span className="italic text-gradient-gold">for travelers.</span>
           </h2>
           <p className="mt-5 text-base font-light text-muted-foreground">
-            Every screen, considered. Every detail, intentional.
+            Voice Translation • Camera Translator • Currency Converter • Bill Splitter • Phrasebook • Native TTS
           </p>
         </div>
 
@@ -58,6 +60,9 @@ export function Showcase() {
               ))}
             </div>
           </div>
+          <p className="mt-8 text-center text-xs text-muted-foreground italic">
+            ← Swipe to explore more screens →
+          </p>
         </div>
       </div>
     </section>
