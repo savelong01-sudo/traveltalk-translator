@@ -6,6 +6,7 @@ import { HowItWorks } from "@/components/site/HowItWorks";
 import { Showcase } from "@/components/site/Showcase";
 import { Stats } from "@/components/site/Stats";
 import { DownloadCTA } from "@/components/site/DownloadCTA";
+import { LegalBanner } from "@/components/site/LegalBanner";
 import { Footer } from "@/components/site/Footer";
 
 export const Route = createFileRoute("/")({
@@ -22,6 +23,7 @@ function Index() {
       <Showcase />
       <Stats />
       <DownloadCTA />
+      <LegalBanner />
       <Footer />
     </main>
   );

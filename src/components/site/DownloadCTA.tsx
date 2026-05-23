@@ -1,4 +1,4 @@
-import { QrCode } from "lucide-react";
+import { QrCode, Shield, FileText } from "lucide-react";
 import { StoreButtons } from "./StoreButtons";
 
 export function DownloadCTA() {
@@ -23,6 +23,25 @@ export function DownloadCTA() {
 
           <div className="relative mt-10 flex flex-col items-center justify-center gap-8">
             <StoreButtons />
+
+            {/* Legal Links - visible & clickable */}
+            <div className="flex items-center gap-6 pt-2">
+              <a
+                href="/privacy"
+                className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-gold"
+              >
+                <Shield className="h-4 w-4" />
+                Privacy Policy
+              </a>
+              <span className="text-muted-foreground/40">|</span>
+              <a
+                href="/terms"
+                className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-gold"
+              >
+                <FileText className="h-4 w-4" />
+                Terms of Service
+              </a>
+            </div>
 
             <div className="flex items-center gap-6 pt-4">
               <div className="flex flex-col items-center gap-2">
